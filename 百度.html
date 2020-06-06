@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div:not(.top){
+            margin-top: 20px;
+        }
+        input {
+            outline: none;
+            border-style: solid;
+        }
+
+        input:focus {
+            border-color: #4791ff;
+            border-style: solid;
+        }
+
+        .ser {
+            width: 500px;
+            height: 20px;
+            border-collapse: collapse;
+        }
+
+        .val {
+            width: 60px;
+            height: 26px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="https://www.baidu.com" method="POST" enctype="multipart/form-data">
+        <div class="top">
+            <input type="text" name="wd" class="ser">
+            <input type="submit" value="百度一下" class="val">
+        </div>
+        <div>
+            <input type="file" name="pho">
+        </div>
+        <input type="submit" >
+    </form>
+</body>
+
+</html>
