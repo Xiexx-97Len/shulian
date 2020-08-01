@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-01T10:08:44.683Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="sH7auUvpGLgmWAKkLycw" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-01T10:10:02.205Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="3X8yPG0y7fNaCrZfWgPy" version="13.5.8" type="github">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="1243" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -115,7 +115,7 @@
         <mxCell id="teCFIKnJwJxZs9uXQs2L-73" value="+ 工作时间输入: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="teCFIKnJwJxZs9uXQs2L-70">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="teCFIKnJwJxZs9uXQs2L-29" value="+ 今日收入(boolen): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="teCFIKnJwJxZs9uXQs2L-70">
+        <mxCell id="teCFIKnJwJxZs9uXQs2L-29" value="+ 今日收入(money): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="teCFIKnJwJxZs9uXQs2L-70">
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="teCFIKnJwJxZs9uXQs2L-46" value="某一任务" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=13;" vertex="1" parent="1">
