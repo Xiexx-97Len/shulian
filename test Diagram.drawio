@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-01T08:01:23.168Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="rrV-KG5ZCwnUx9MXKT0x" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-01T08:23:38.013Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="iFf92gc6xoHBb2XZQC75" version="13.5.8" type="github">
   <diagram id="Zd2d16wufieMr73oknzC" name="Page-1">
     <mxGraphModel dx="1102" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -114,7 +114,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VcqsJPtHIRY4LmEztvHu-22" value="导入材料清单数据" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="670" y="46" width="200" height="270" as="geometry" />
+          <mxGeometry x="670" y="46" width="200" height="296" as="geometry" />
         </mxCell>
         <mxCell id="VcqsJPtHIRY4LmEztvHu-23" value="+ 工厂解析模式一: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="VcqsJPtHIRY4LmEztvHu-22" vertex="1">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -142,6 +142,9 @@
         </mxCell>
         <mxCell id="7UognVnQ29kYrQkInJBz-29" value="+ 可选列: attribute" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="VcqsJPtHIRY4LmEztvHu-22">
           <mxGeometry y="240" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7UognVnQ29kYrQkInJBz-47" value="+ 选择BOM清单列的含义: attribute" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="VcqsJPtHIRY4LmEztvHu-22">
+          <mxGeometry y="270" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="VcqsJPtHIRY4LmEztvHu-68" value="生产必要文件" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="500" y="86" width="140" height="104" as="geometry" />
@@ -301,6 +304,41 @@
               <mxPoint x="780" y="348" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7UognVnQ29kYrQkInJBz-48" value="BOM清单列的含义" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="910" y="450" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7UognVnQ29kYrQkInJBz-49" value="+ 封装: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7UognVnQ29kYrQkInJBz-48">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7UognVnQ29kYrQkInJBz-50" value="+ 规格: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7UognVnQ29kYrQkInJBz-48">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7UognVnQ29kYrQkInJBz-51" value="+ 位号数量: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7UognVnQ29kYrQkInJBz-48">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7UognVnQ29kYrQkInJBz-53" value="+ 位号列表: attribute" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="7UognVnQ29kYrQkInJBz-48">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7UognVnQ29kYrQkInJBz-52" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7UognVnQ29kYrQkInJBz-47" target="7UognVnQ29kYrQkInJBz-48">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="640" y="480" as="sourcePoint" />
+            <mxPoint x="800" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="900" y="329" />
+              <mxPoint x="900" y="430" />
+              <mxPoint x="980" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7UognVnQ29kYrQkInJBz-54" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;fontSize=12;exitX=0;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.01;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7UognVnQ29kYrQkInJBz-1" target="VcqsJPtHIRY4LmEztvHu-22">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="640" y="280" as="sourcePoint" />
+            <mxPoint x="870" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7UognVnQ29kYrQkInJBz-56" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;依赖&lt;/font&gt;&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="970" y="20" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
